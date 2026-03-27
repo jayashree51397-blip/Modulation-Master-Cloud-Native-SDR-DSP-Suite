@@ -1,61 +1,10 @@
-📡 Modulation Master: Advanced Communication Lab Suite
-A Cloud-Native Signal Processing & SDR Simulation Platform
+📡 Modulation Master: Advanced SDR & Communication SuiteA Cloud-Native Signal Processing Platform for Electronics & Communication Engineering(Replace with your actual link)🚀 Project OverviewModulation Master is an interactive web-based simulation tool designed to bridge the gap between theoretical communication engineering and practical Software Defined Radio (SDR) implementation. Developed as part of the II Year ECE-B curriculum at Panimalar Engineering College, this suite provides real-time visualization and quantitative analysis of signal modulation and recovery.🛠️ Advanced Features (O-Grade Specifications)1. GNU Radio DSP Pipeline (Unit V)Digital Receiver Logic: Implements a 5th-order Butterworth Low Pass Filter to emulate GNU Radio flowgraphs.Signal Recovery: Real-time noise suppression of corrupted carrier waves using SciPy-based DSP blocks.2. Quantitative Metrics & AnalysisReal-time SNR Calculation: Dynamic measurement of Signal-to-Noise Ratio (dB) to assess channel quality.BER Estimation: Automated Bit Error Rate calculation by comparing transmitted vs. recovered bit sequences in BPSK.3. Comprehensive Modulation SuiteAnalog (Unit I & II): Standard AM, DSB-SC, and Frequency Modulation (FM) with live Spectrum Analysis.Digital (Unit IV): BPSK modulation with integrated Constellation Diagrams to visualize phase shifts ($180^\circ$) and noise-induced jitter.💻 Technical StackLanguage: Python 3.xDSP Engine: SciPy (Signal Processing), NumPyVisualization: Plotly (Interactive Oscilloscope & Spectrum Analyzer)Framework: Streamlit (Cloud-Native Deployment)📖 Syllabus AlignmentThis project directly maps to the Advanced Communication Lab requirements:Unit I & II: Amplitude and Frequency Modulation Power Relations.Unit IV: Digital Signaling and Phase Shift Keying (BPSK).Unit V: Noise Analysis, SNR Improvements, and Error Probabilities.🔧 Local SetupClone the repository:Bashgit clone https://github.com/your-username/modulation-master.git
+Install dependencies:Bashpip install -r requirements.txt
+Run the application:Bashstreamlit run app.py
+🎓 Author & Acknowledgments
+Lead Developer: Jayashree S (II Year ECE-B)
+Institution: RMK Engineering College
 
-
-https://adv-com-systemslab-xvjn8evekhf473peayfpds.streamlit.app/
-
-🚀 Project Overview
-
-Modulation Master is an interactive web application designed to bridge the gap between theoretical communication engineering and practical software-defined radio 
-(SDR) implementation. Developed as part of the II Year ECE-B curriculum
-at R.M.K. Engineering College, this suite allows for real-time visualization of analog and digital modulation schemes in both time and frequency 
-domains.
-🛠️ Key Features
-1. Analog Modulation (Unit I & II)Standard AM, DSB-SC, and FM: Real-time generation of modulated waves with adjustable carrier and message frequencies.
-2. Live Spectrum Analysis: Integrated Fast Fourier Transform (FFT) to visualize sidebands and power distribution.
-3. Digital Modulation (Unit IV)BPSK Implementation: Visualization of phase reversals ($180^\circ$) at bit transitions..Constellation Mapping: Real-time plotting of signal points to analyze phase accuracy.
-4. GNU Radio & DSP Integration (Advanced)SDR Receiver Logic: Implementation of low-pass filtering and noise suppression inspired by GNU Radio flowgraphs.Channel Noise Simulation: Adjustable Gaussian noise levels to test system reliability and SNR (Unit V).
-   
-   💻 Tech Stack
-   Language: Python 3.x
-   Web Framework: Streamlit (Cloud-Native Deployment)
-    Signal Processing: NumPy, SciPy (Signal/FFT modules)
-   Visualization: Plotly (Interactive Oscilloscope & Spectrum Analyzer)
-   Version Control: GitHub with CI/CD integration
-
-   📖 Syllabus Mapping
-This project directly implements concepts from the Advanced Communication Lab:
-
-Unit I: Amplitude Modulation and Power Relations.
-
-Unit II: Frequency Modulation and Deviation.
-
-Unit IV: Binary Phase Shift Keying (BPSK) and Digital Signaling.
-
-Unit V: Channel Noise Analysis and System Performance.
-
-🔧 Installation & Local Setup
-To run this project locally, follow these steps:
-
-Clone the repository:
-
-Bash
-git clone https://github.com/your-username/modulation-master.git
-Install dependencies:
-
-Bash
-pip install -r requirements.txt
-Run the app:
-
-Bash
-streamlit run app.py
-
-🎓 Author & Credits
-Developer: Jayashree S (II Year ECE-B)
-
-Institution: R.M.K. Engineering College
-
-Mentor: Mr. Harish Ganasampantham
 
 
 
