@@ -52,6 +52,20 @@ else: # GNU RADIO DSP (ADVANCED)
 
 # Add Noise to whatever signal was generated
 modulated += np.random.normal(0, noise_level, len(t))
+# --- SNR CALCULATION (O-GRADE METRIC) ---
+signal_power = np.mean(np.square(modulated - np.random.normal(0, noise_level, len(t)))) # Approximation
+noise_power = np.mean(np.square(np.random.normal(0, noise_level, len(t))))
+
+# Avoid division by zero
+if noise_level > 0:
+    snr_db = 10 * np.log10(signal_power / noise_power)
+else:
+    snr_db = 100 # Infinity for zero noise
+
+# Display the metric at the top of the dashboard
+st.sidebar.markdown("---")
+st.sidebar.metric(label="Channel Quality (SNR)", value=f"{snr_db:.2f} dB", 
+                  delta="Good" if snr_db > 10 else "Poor", delta_color="normal")
 
 # --- PLOTTING ---
 if unit_choice == "GNU Radio DSP (Advanced)":
