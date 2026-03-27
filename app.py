@@ -133,4 +133,4 @@ else:
             st.plotly_chart(fig_freq, use_container_width=True)
 
 st.markdown("---")
-st.caption("Developed by Jayashree S | Mentor: Mr. Harish Ganasampantham | Team Astra")
+st.caption("Developed by Jayashree S")
