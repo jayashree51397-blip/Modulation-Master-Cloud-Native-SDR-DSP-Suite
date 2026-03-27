@@ -3,21 +3,29 @@
 https://adv-com-systemslab-xvjn8evekhf473peayfpds.streamlit.app/
 
 🚀 Project Overview
+
+
 Modulation Master is an interactive web-based simulation tool designed to bridge the gap between theoretical communication engineering and practical Software Defined Radio (SDR) implementation. Developed as part of the II Year ECE-B curriculum at RMK Engineering College, this suite provides real-time visualization and quantitative analysis of signal modulation and recovery.
 
 🛠️ Advanced Features 
+
 1. GNU Radio DSP Pipeline (Unit V)Digital Receiver Logic: Implements a 5th-order Butterworth Low Pass Filter to emulate GNU Radio flowgraphs.Signal Recovery: Real-time noise suppression of corrupted carrier waves using SciPy-based DSP blocks.
 2. Quantitative Metrics & AnalysisReal-time SNR Calculation: Dynamic measurement of Signal-to-Noise Ratio (dB) to assess channel quality.BER Estimation: Automated Bit Error Rate calculation by comparing transmitted vs. recovered bit sequences in BPSK.
 3. Comprehensive Modulation SuiteAnalog (Unit I & II): Standard AM, DSB-SC, and Frequency Modulation (FM) with live Spectrum Analysis.Digital (Unit IV): BPSK modulation with integrated Constellation Diagrams to visualize phase shifts ($180^\circ$) and noise-induced jitter.
   
 💻 Technical StackLanguage: 
+
 Python 3.8
 DSP Engine: SciPy (Signal Processing), NumPyVisualization: Plotly (Interactive Oscilloscope & Spectrum Analyzer)Framework: Streamlit (Cloud-Native Deployment)
+
+
 📖 Syllabus Alignment
+
 This project directly maps to the Advanced Communication Lab requirements:
 Unit I & II: Amplitude and Frequency Modulation Power Relations.
 Unit IV: Digital Signaling and Phase Shift Keying (BPSK).
 Unit V: Noise Analysis, SNR Improvements, and Error Probabilities.
+
 
 🔧 Local Setup
 
