@@ -8,7 +8,7 @@ https://adv-com-systemslab-xvjn8evekhf473peayfpds.streamlit.app/
 🚀 Project Overview
 
 
-Modulation Master is an interactive web-based simulation tool designed to bridge the gap between theoretical communication engineering and practical Software Defined Radio (SDR) implementation. Developed as part of the II Year ECE-B curriculum at RMK Engineering College, this suite provides real-time visualization and quantitative analysis of signal modulation and recovery.
+Modulation Master is an interactive web-based simulation tool designed to bridge the gap between theoretical communication engineering and practical Software Defined Radio (SDR) implementation. Developed as an independent research project exploring Software Defined Radio simulation.
 
 🛠️ Advanced Features 
 
